@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coffee Shop</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45fca5c8f9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--header-->
+        <header class="header" id="header">
+            <!--banner-->
+            <div class="banner">
+                <h1 class="banner__title bell-fonts">coffee junkie</h1>
+                <div class="banner__icons">
+                    <a href="#" class="banner__social-icon">
+                        <!--elements of font awesome-->
+                        <i class="fab fa-facebook fa-fw"></i>
+                    </a>
+                    <a href="#" class="banner__social-icon">
+                        <!--elements of font awesome-->
+                        <i class="fab fa-twitter fa-fw"></i>
+                    </a>
+                    <a href="#" class="banner__social-icon">
+                        <!--elements of font awesome-->
+                        <i class="fab fa-google-plus fa-fw"></i>
+                    </a>
+                    <a href="#" class="banner__social-icon">
+                        <!--elements of font awesome-->
+                        <i class="fab fa-instagram fa-fw"></i>
+                    </a>
+                </div>
+            </div>
+            <!--end of banner-->
+            <!--video-->
+            <article class="video__container">
+                <video class="video__item" autoplay muted loop>
+                    <source
+                        src="assets/2e0459e5d043b19d9f0d3486cac5249d.mp4"
+                        type="video/mp4"
+                    />
+                    <source
+                        src="assets/2e0459e5d043b19d9f0d3486cac5249d.ogv"
+                        type="video/ogv"
+                    />
+                    <source
+                        src="assets/2e0459e5d043b19d9f0d3486cac5249d.webm"
+                        type="video/webm"
+                    />
+                    Your browser does not support video tag
+                </video>
+            </article>
+            <!--end of video-->
+            <!--nav btn-->
+            <div class="navBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <!--nav-->
+            <nav class="nav">
+                <ul class="nav__links">
+                    <!--logo-->
+                    <li>
+                        <a href="#" class="nav__single-link nav__logo">
+                            <img
+                                src="assets/icons8-coffee-script-48.png"
+                                alt=""
+                            />
+                        </a>
+                    </li>
+                    <li><a href="#header" class="nav__single-link">home</a></li>
+                    <li><a href="#about" class="nav__single-link">about</a></li>
+                    <li>
+                        <a href="#drink" class="nav__single-link">free drink</a>
+                    </li>
+                    <li><a href="#work" class="nav__single-link">our menu</a></li>
+                    <li>
+                        <a href="#contact" class="nav__single-link">contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--video switch-->
+            <div class="video__switch-container">
+                <div class="video__switch">
+                    <span>on</span>
+                    <span>off</span>
+                    <div class="video__switch-btn"></div>
+                </div>
+            </div>
+        </header>
+        <section class="about section-padding" id="about">
+            <div class="grid-container grid-container--medium-2">
+                <!--about container-->
+                <article class="about-container">
+                    <!--first child-->
+                    <div class="section-title">
+                        <h1 class="section-title__name bell-fonts">
+                            our story
+                        </h1>
+                        <div class="section-title__underline">
+                            <p class="section-title__text">
+                                The powers of a man’s mind are directly
+                                proportional to the quantity of coffee he
+                                drinks. - Sir James MacKintosh
+                            </p>
+                        </div>
+                    </div>
+                    <!--second child-->
+                    <div class="about__img">
+                        <img
+                            src="assets/coffee-flower-reading-magazine.jpg"
+                            class="about__img-item"
+                            alt="about-img"
+                        />
+                    </div>
+                </article>
+                <!--end of about container-->
+                <!--about container-->
+                <article class="about-container">
+                    <!--first child-->
+                    <div class="section-title">
+                        <h1 class="section-title__name bell-fonts">
+                            our suggests
+                        </h1>
+                        <div class="section-title__underline">
+                            <p class="section-title__text">
+                                But even a bad cup of coffee is better than no
+                                coffee at all. - David Lynch
+                            </p>
+                        </div>
+                    </div>
+                    <!--second child-->
+                    <div class="about__img about__img-special">
+                        <img
+                            src="assets/photo-1607469256721-13472920da4e.jfif"
+                            class="about__img-item"
+                            alt="about-img"
+                        />
+                    </div>
+                </article>
+                <!--end of about container-->
+            </div>
+        </section>
+        <!--end header-->
+        <!--drink section-->
+        <section class="drink section-padding" id="drink">
+            <div class="grid-container">
+                <!--first item-->
+                <form class="drink-form">
+                    <p class="drink-form__feedback">some text</p>
+                    <h3 class="drink-form__title bell-fonts">
+                        to get free drinks
+                    </h3>
+                    <div class="drink-form__input">
+                        <input
+                            type="text"
+                            name=""
+                            id=""
+                            maxlength="15"
+                            class="input-name"
+                            placeholder="name"
+                        />
+                        <div class="drink-form__input">
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                maxlength="15"
+                                class="input-lastname"
+                                placeholder="last name"
+                            />
+                        </div>
+                        <div class="drink-form__input">
+                            <input
+                                type="email"
+                                name=""
+                                id=""
+                                maxlength="15"
+                                class="input-email"
+                                placeholder="email"
+                            />
+                        </div>
+                    </div>
+                    <input type="submit" value="sign up" class="input-submit" />
+                </form>
+
+                <!--second item-->
+                <article class="drink-card">
+                    <h3 class="drink-card__title bell-fonts">lucky people:</h3>
+                    <div class="drink-card__list">
+                        <!-- <div class="person">
+                            <h4 class="person__name">Isaac</h4>
+                            <h4 class="person__lastname">Newton</h4>
+                        </div>-->
+                        <!-- <div class="person">
+                            <h4 class="person__name">Alexander</h4>
+                            <h4 class="person__lastname">Pope</h4>
+                        </div>-->
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--end of drink section-->
+
+        <!--work-->
+
+        <section class="work section-padding" id="work">
+            <!--section title-->
+            <div class="section-title section-title--left">
+                <h1 class="section-title__name bell-fonts">Our Menu</h1>
+                <div class="section-title__underline"></div>
+            </div>
+            <!--end of section title-->
+
+
+            <!--Orders-->
+            
+            <main id="menu">
+                <section id="coffee">
+                    <h2>Coffee</h2>
+                </section>
+                <section id="other-drinks">
+                    <h2>Other Drinks</h2>
+                </section>
+                <section id="baked-goods">
+                    <h2>Baked Goods</h2>
+                </section>
+                <section id="other-foods">
+                    <h2>Other Foods</h2>
+                </section>
+            </main>
+            <main hidden id="cart">
+                <div id=cart-header>
+                    <h2>Your Cart</h2>
+                    <button id="back-to-menu" class="back-button" type="button">Back to Menu</button>
+                </div>
+                <div id="cart-items"></div>
+            </main>
+            <main hidden id="checkout">
+                <div id="checkout-header">
+                    <h2>Checkout</h2>
+                    <button id="back-to-cart" class="back-button" type="button">Back to Cart</button>
+                </div>
+                <div id="cost-info">
+                    <div class="row">
+                        <span>Subtotal</span>
+                        <data id="subtotal"></data>
+                    </div>
+                    <div class="row">
+                        <span>Sales Tax (6%)</span>
+                        <data id="tax"></data>
+                    </div>
+                    <div class="row">
+                        <span>Total + Tax</span>
+                        <data id="total-with-tax"></data>
+                    </div>
+                    <form id="tip-info" autocomplete="off">
+                        <span>Please select tip amount.</span>
+                        <div id="tip-buttons">
+                            <button type="button" value="0" class="clicked">No Tip</button>
+                            <button type="button" value="0.1" class="not-clicked">10%</button>
+                            <button type="button" value="0.15" class="not-clicked">15%</button>
+                            <button type="button" value="0.2" class="not-clicked">20%</button>
+                            <button type="button" value="0.25" class="not-clicked">25%</button>
+                            <button type="button" id="tip-other" class="not-clicked">Other</button>
+                        </div>
+                        <div hidden id="custom-tip">
+                            <span>Enter tip amount.</span>
+                            <div id="custom-tip-flex">
+                                <div id="custom-tip-buttons">
+                                    <button id="tip-percent" class="clicked" type="button" value="%">Percent (%)</button>
+                                    <button id="tip-dollar" class="not-clicked" type="button" value="$">Dollars ($)</button>
+                                </div>
+                                <input type="number" id="tip-entry" placeholder="0" onkeypress="return event.keyCode != 13;">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <span>Tip</span>
+                        <data id="tip">$0.00</data>
+                    </div>
+                    <div class="row">
+                        <span>Grand Total</span>
+                        <data id="grand-total"></data>
+                    </div>
+                </div>
+                <span id="payment-question">How would you like to pay?</span>
+                <div id="payment-buttons">
+                    <button id="cash-button" class="clicked" value="cash" type="button">Cash</button>
+                    <button id="card-button" class="not-clicked" value="card" type="button">Debit/Credit Card</button>
+                </div>
+                <form id="cash-prompt" autocomplete="off">
+                    <div class="row">
+                        <label for="cash-input">Cash Paid</label>
+                        <input type="number" id="cash-input" min="0" step="0.01" onkeypress="return event.keyCode != 13;">
+                    </div>
+                </form>
+                <form hidden id="card-prompt" autocopmlete="off">
+                    <p id="cc-warning">Do not enter a real credit card number!</p>
+                    <div class="row">
+                        <label for="card-number">Card Number</label>
+                        <input type="number" id="card-number" step="1" min="0" placeholder="15-16 digits" onkeypress="return event.keyCode != 13;">
+                    </div>
+                    <div class="row">
+                        <label for="exp-date">Exp. Date</label>
+                        <input type="text" id="exp-date" placeholder="mm/yy" onkeypress="return event.keyCode != 13;">
+                    </div>
+                    <div class="row">
+                        <label for="cvv">CVV</label>
+                        <input type="number" id="cvv" step="1" min="0" placeholder="3-4 digits" onkeypress="return event.keyCode != 13;">
+                    </div>
+                </form>
+            </main>
+            <main hidden id="confirm-payment">
+                <div id="confirm-payment-header">
+                    <h2>Confirm Order</h2>
+                    <button id="back-to-checkout" class="back-button" type="button">Go Back</button>
+                </div>
+                <div id="order-summary"></div>
+            </main>
+            <footer>
+                <div id="cart-info">
+                    <i class="fas fa-shopping-cart"></i>
+                    <data id="footer-item-count">0</data>
+                    <data id="footer-total">$0.00*</data>
+                </div>
+                <button id="footer-button" type="button">View Order</button>
+            </footer>
+        </div>
+        <div hidden id="popup">
+            <h2 id="popup-header"></h2>
+            <div id="popup-text"></div>
+            <button id="popup-button" type="button">Ok</button>
+        </div>
+                   
+
+
+            <!--end of orders-->
+
+            <div class="work-container">
+                <!-- single work item-->
+                <article class="work-item item-1">
+                    <img
+                        src="assets/work-1.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-id="1">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article>
+                <!-- single work item-->
+                <article class="work-item item-2">
+                    <img
+                        src="assets/work-2.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-id="2">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article>
+                <!-- end single work item-->
+                <!-- single work item-->
+                <article class="work-item item-3">
+                    <img
+                        src="assets/work-3.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-ide="3">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article>
+                <!-- end single work item-->
+                <!-- single work item-->
+                <article class="work-item item-4">
+                    <img
+                        src="assets/work-4.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-id="4">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article>
+                <!-- end single work item-->
+                <!-- single work item-->
+                <article class="work-item item-5">
+                    <img
+                        src="assets/work-5.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-id="5">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article>
+                <!-- end single work item-->
+                <!-- single work item-->
+                <article class="work-item item-6">
+                    <img
+                        src="assets/work-6.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-id="6">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article>
+                <!-- end single work item-->
+                <!-- single work item-->
+                <!-- <article class="work-item item-7">
+                    <img
+                        src="assets/work-7.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-id="7">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article> -->
+                <!-- end single work item-->
+                <!-- single work item-->
+                <!-- <article class="work-item item-8">
+                    <img
+                        src="assets/work-8.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-id="8">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article> -->
+                <!-- end single work item-->
+                <!-- single work item-->
+                <!-- <article class="work-item item-9">
+                    <img
+                        src="assets/work-9.jpeg"
+                        alt=""
+                        class="work-item__img"
+                    />
+                    <a href="" class="work-item__icon" data-id="9">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </article> -->
+                <!-- end single work item-->
+            </div>
+
+            <!--modal-->
+            <div class="work-modal">
+                <div class="work-modal__item">
+                    <div class="work-modal__close">
+                        <i class="fas fa-window-close"> </i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--end of work-->
+
+        <!--animation-->
+
+        <!--contact sesion-->
+        <section class="contact section-padding" id="contact">
+            <!--section title-->
+
+            <div class="section-title section-title--left">
+                <h1 class="section-title__name bell-fonts">our work</h1>
+                <div class="section-title__underline"></div>
+            </div>
+            <!--end of section title-->
+
+            <div class="contact-container">
+                <iframe
+                    class="contact-map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44895.028839821185!2d21.869015289050935!3d45.3096517126603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47502a14d6a718d9%3A0xb62b9e8261fdbec8!2zUmXImWnIm2E!5e0!3m2!1sro!2sro!4v1630512219637!5m2!1sro!2sro"
+                    width="100%"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
+                <div class="contact-info">
+                    <!--single contact item-->
+                    <div class="contact-item">
+                        <div class="contact-item__icon">
+                            <i class="fas fa-map-pin"></i>
+                        </div>
+                        <h2 class="contact-item__title">address</h2>
+                        <p class="contact-item__text">
+                            Bd Republicii , Coffee Street,Resita
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">
+                            <i class="fas fa-headphones-alt"></i>
+                        </div>
+                        <h2 class="contact-item__title">support</h2>
+                        <p class="contact-item__text">
+                            <span><i class="fas fa-phone"> </i> </span>
+                            +40 724 278 194
+                        </p>
+                        <p class="contact-item__text">
+                            <span><i class="fas fa-envelope"></i></span
+                            >cipipowerlifting22@gmail.com
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h2 class="contact-item__title">work time</h2>
+                        <p class="contact-item__text">
+                            monday - friday 8.00am - 8.00pm
+                        </p>
+                        <p class="contact-item__text">
+                            saturday - sunday 9.00am - 10pm
+                        </p>
+                    </div>
+                    <!--end of single contact item-->
+                </div>
+            </div>
+        </section>
+
+
+           <!--ORDERS-->
+
+          
+
+
+
+        <!--end of contact sesion-->
+
+        <script src="app.js"></script>
+    </body>
+</html>
+
+
