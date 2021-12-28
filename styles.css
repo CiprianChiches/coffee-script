@@ -1309,7 +1309,7 @@ h2 {
 
 /* desktop styling */
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1250px) {
     /* entire app */
 
     input {
@@ -1432,6 +1432,7 @@ h2 {
 
     .product-price-header {
         font-size: 2rem;
+        margin-right: 22rem;
     }
 
     .product-description {
@@ -1439,6 +1440,7 @@ h2 {
         text-overflow: clip;
         overflow: visible;
         white-space: normal;
+        margin-right: 10rem;
     }
 
     .product-footer {
@@ -1447,11 +1449,12 @@ h2 {
 
     .product-footer select {
         font-size: 2rem;
-        width: 6rem;
+        width: 3.5rem;
     }
 
     .product-footer button {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin-right: 11rem;
     }
 
     /* shopping cart */

@@ -337,7 +337,7 @@ function buildMenu() {
         const qtySelect = document.createElement('select');
         productFooter.appendChild(qtySelect);
 
-        for (let i = 1; i <= 99; i++) {
+        for (let i = 1; i <= 50; i++) {
             const option = document.createElement('option');
             option.value = i;
             option.text = i;
@@ -348,6 +348,16 @@ function buildMenu() {
         plusIcon.className = 'fas fa-plus-square';
         plusIcon.addEventListener('click', addToCart);
         productFooter.appendChild(plusIcon);
+
+        // const plusIcon = document.createElement('i');
+        // plusIcon.className = 'fas fa-plus-square';
+        // plusIcon.addEventListener('click', addToCart);
+        // productFooter.appendChild(plusIcon);
+
+        // const plusIcon = document.createElement('i');
+        // plusIcon.className = 'fas fa-plus-square';
+        // plusIcon.addEventListener('click', addToCart);
+        // productFooter.appendChild(plusIcon);
 
         const cartButton = document.createElement('button');
         cartButton.innerText = 'Add to Cart';
@@ -398,6 +408,9 @@ function updateFooterTotals() {
 function addToCart(event) {
 
     const productDiv = event.target.parentNode.parentNode.parentNode;
+
+
+
     const name = productDiv.querySelector('.product-name').innerText;
     const category = productDiv.parentNode.querySelector('h3').innerText;
     const description = productDiv.querySelector('.product-description').innerText;
@@ -417,8 +430,8 @@ function addToCart(event) {
     }
     else {
         cartArr[index].quantity += quantity;
-        if (cartArr[index].quantity > 99) {
-            cartArr[index].quantity = 99;
+        if (cartArr[index].quantity > 50) {
+            cartArr[index].quantity = 50;
         }
     }
 
